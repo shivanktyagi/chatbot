@@ -1,0 +1,139 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go    
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: search_restaurant
+  examples: |
+    # - Show me some restaurant
+    - Show me some [south indian](food_variety) restaurant
+    - Show me some [north indian](food_variety) restaurant
+    - Show me some [chinese](food_variety) restaurant
+    - Show me some [italian](food_variety) restaurant
+    # - Show me some food places
+
+- intent: about
+  examples: |
+    - tell me about yourself
+    - myself
+    - who i am
+    - introduction
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: show_time
+  examples: |
+    - what's the time?
+    - what is the time?
+    - tell time
+    - show time
+    - time
+
+- intent: show_day
+  examples: |
+    - what's the day?
+    - what is the day today?
+    - tell me about day
+    - show day
+    - day
+    - what day is today
+
+- intent: corona_status
+  examples: |
+    - [india](state)
+    - [corona](state)
+    - [uttarakhand](state)
+    - [haryana](state)
+    - [UP](state)
+    - [delhi](state)
+    - [punjab](state)
+    - [kerala](state)
+    - [kl](state)
+
+    
